@@ -10,7 +10,7 @@ Kirki::add_field( 'kirki_demo', array(
 	'default'         => '',
     'transport'       => 'postMessage',
     'partial_refresh' => array(
-        'image_wrapper' => array(
+        'image_wrapper_partial_refresh_id' => array(
             'selector'        => '.control-section-demo.image-control td',
             'render_callback' => function() {
                 get_template_part( 'templates/image' );
