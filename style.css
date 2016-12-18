@@ -6,6 +6,10 @@ body {
     background: #fff;
 }
 
+table {
+    font-size: 18px;
+}
+
 table tr th,
 table tr td {
     border: 1px solid #ccc;
