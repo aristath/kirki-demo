@@ -17,3 +17,13 @@ Theme Name: Kirki Demo
     float: left;
     text-align: center;
 }
+
+.demo-color-container {
+    width: 100%;
+    height: 50px;
+}
+
+.control-section-demo.dashicons,
+.control-section-demo.dashicons .dashicons {
+    font-size: 14px;
+}
