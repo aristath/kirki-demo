@@ -10,7 +10,7 @@ Kirki::add_field( 'kirki_demo', array(
     'transport'   => 'auto',
     'output'      => array(
         array(
-            'element'  => '.control-section-demo.dimension',
+            'element'  => '.control-section-demo.dimension-control td',
             'property' => 'font-size',
         ),
     ),

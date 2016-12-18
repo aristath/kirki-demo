@@ -11,7 +11,7 @@ Kirki::add_field( 'kirki_demo', array(
     'transport'   => 'postMessage',
     'js_vars'     => array(
         array(
-            'element'       => '.control-section-demo.dashicons .dashicons0 .dashicons',
+            'element'       => '.control-section-demo.dashicons-control .dashicons0 .dashicons',
             'function'      => 'html',
             'attr'          => 'class',
             'value_pattern' => 'dashicons dashicons-$',
@@ -30,7 +30,7 @@ Kirki::add_field( 'kirki_demo', array(
     'transport'       => 'postMessage',
     'partial_refresh' => array(
         'dashicons1' => array(
-            'selector'        => '.control-section-demo.dashicons .dashicons1',
+            'selector'        => '.control-section-demo.dashicons-control .dashicons1',
             'render_callback' => function() {
                 echo '<div class="dashicons1">';
                 $icon1 = get_theme_mod( 'dashicons1', 'format-status' );
