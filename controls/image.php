@@ -15,6 +15,6 @@ Kirki::add_field( 'kirki_demo', array(
             'render_callback' => function() {
                 get_template_part( 'templates/image' );
             },
-        )
-    )
+        ),
+    ),
 ) );
