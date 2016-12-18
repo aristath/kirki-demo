@@ -2,14 +2,21 @@
 Theme Name: Kirki Demo
 */
 
+body {
+    background: #fff;
+}
 .control-section-demo {
-    min-width: 150px;
-    min-height: 50px;
+    width: 150px !important;
+    height: 50px !important;
     float: left;
     padding: 20px;
     border: 1px solid #ccc;
+    overflow: hidden;
 }
 
+.no-demo-found {
+    color: #aaa;
+}
 .control-section-demo.color-palette > div {
     width: 25%;
     height: 50px;
