@@ -19,7 +19,7 @@ Kirki::add_field( 'kirki_demo', array(
     ),
     'output' => array(
         array(
-            'element'  => '.control-section-demo.color-palette .section-0',
+            'element'  => '.control-section-demo.color-palette-control .section-0',
             'property' => 'background-color',
         ),
     ),
@@ -35,7 +35,7 @@ Kirki::add_field( 'kirki_demo', array(
     'transport'   => 'auto',
     'output' => array(
         array(
-            'element'  => '.control-section-demo.color-palette .section-1',
+            'element'  => '.control-section-demo.color-palette-control .section-1',
             'property' => 'background-color',
         ),
     ),
@@ -56,7 +56,7 @@ Kirki::add_field( 'kirki_demo', array(
     ),
     'output' => array(
         array(
-            'element'  => '.control-section-demo.color-palette .section-2',
+            'element'  => '.control-section-demo.color-palette-control .section-2',
             'property' => 'background-color',
         ),
     ),
@@ -77,7 +77,7 @@ Kirki::add_field( 'kirki_demo', array(
     ),
     'output' => array(
         array(
-            'element'  => '.control-section-demo.color-palette .section-3',
+            'element'  => '.control-section-demo.color-palette-control .section-3',
             'property' => 'background-color',
         ),
     ),

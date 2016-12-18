@@ -14,7 +14,7 @@ Kirki::add_field( 'kirki_demo', array(
     ),
     'output' => array(
         array(
-            'element'  => '.control-section-demo.color > .demo-color-container',
+            'element'  => '.control-section-demo.color-control .demo-color-container',
             'property' => 'background-color',
         ),
     ),

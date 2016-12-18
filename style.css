@@ -5,32 +5,31 @@ Theme Name: Kirki Demo
 body {
     background: #fff;
 }
-.control-section-demo {
-    width: 150px !important;
-    height: 50px !important;
-    float: left;
-    padding: 20px;
+
+table tr th,
+table tr td {
     border: 1px solid #ccc;
-    overflow: hidden;
+}
+
+table th {
+    width: 150px;
 }
 
 .no-demo-found {
+    color: #bbb;
+}
+
+.no-demo-found code {
     color: #aaa;
 }
-.control-section-demo.color-palette > div {
-    width: 25%;
-    height: 50px;
-    display: block;
-    float: left;
+
+.control-section-demo.color-palette-control > td > div {
+    width: 100px;
+    display: inline-block;
     text-align: center;
 }
 
-.demo-color-container {
+.control-section-demo.color-control .demo-color-container {
     width: 100%;
-    height: 50px;
-}
-
-.control-section-demo.dashicons,
-.control-section-demo.dashicons .dashicons {
-    font-size: 14px;
+    height: 1em;
 }
