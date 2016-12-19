@@ -14,13 +14,13 @@ Kirki::add_field( 'kirki_demo', array(
 		'option-4' => esc_attr__( 'Option 4', 'kirki-demo' ),
 		'option-5' => esc_attr__( 'Option 5', 'kirki-demo' ),
 	),
-    'transport'       => 'postMessage',
-    'partial_refresh' => array(
-        'image_wrapper' => array(
-            'selector'        => '.control-section-demo.multicheck-control td',
-            'render_callback' => function() {
-                get_template_part( 'templates/multicheck' );
-            },
-        ),
-    ),
+	'transport'       => 'postMessage',
+	'partial_refresh' => array(
+		'image_wrapper' => array(
+			'selector'        => '.control-section-demo.multicheck-control td',
+			'render_callback' => function() {
+				get_template_part( 'templates/multicheck' );
+			},
+		),
+	),
 ) );

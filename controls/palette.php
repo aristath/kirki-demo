@@ -19,13 +19,13 @@ Kirki::add_field( 'kirki_demo', array(
 			'#F9A825',
 		),
 	),
-    'transport'       => 'postMessage',
-    'partial_refresh' => array(
-        'palette_wrapper_partial_refresh_id' => array(
-            'selector'        => '.control-section-demo.palette-control td',
-            'render_callback' => function() {
-                get_template_part( 'templates/palette' );
-            },
-        ),
-    ),
+	'transport'       => 'postMessage',
+	'partial_refresh' => array(
+		'palette_wrapper_partial_refresh_id' => array(
+			'selector'        => '.control-section-demo.palette-control td',
+			'render_callback' => function() {
+				get_template_part( 'templates/palette' );
+			},
+		),
+	),
 ) );

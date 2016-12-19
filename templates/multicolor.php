@@ -1,8 +1,14 @@
 <?php
+
+if ( ! class_exists( 'Kirki' ) ) {
+	esc_attr_e( 'Please install Kirki to see more', 'kirki_demo' );
+	return;
+}
+
 $default = array(
-    'link'    => '#0088cc',
-    'hover'   => '#00aaff',
-    'active'  => '#00ffff',
+	'link'    => '#0088cc',
+	'hover'   => '#00aaff',
+	'active'  => '#00ffff',
 );
 $value      = get_theme_mod( 'multicolor', $default );
 // Sanitize values and convert to valid HEX values.
@@ -32,13 +38,13 @@ echo '.control-section-demo.multicolor-control .active-color .color{background:'
 // Text colors.
 // If background-color is too dark, change text-color to white so it's readable.
 if ( 127 > ariColor::newColor( $link_hex )->luminance ) {
-    echo '.control-section-demo.multicolor-control .link-color .color{color:#fff}';
+	echo '.control-section-demo.multicolor-control .link-color .color{color:#fff}';
 }
 if ( 127 > ariColor::newColor( $hover_hex )->luminance ) {
-    echo '.control-section-demo.multicolor-control .hover-color .color{color:#fff}';
+	echo '.control-section-demo.multicolor-control .hover-color .color{color:#fff}';
 }
 if ( 127 > ariColor::newColor( $active_hex )->luminance ) {
-    echo '.control-section-demo.multicolor-control .active-color .color{color:#fff}';
+	echo '.control-section-demo.multicolor-control .active-color .color{color:#fff}';
 }
 
 echo '</style>';
